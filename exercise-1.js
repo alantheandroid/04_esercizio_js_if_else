@@ -13,9 +13,7 @@ function calculateSalary(role) {
     return cto;
   } else if (role === "developer") {
     return developer;
-  } else if (role === "other") {
-    return other;
-  }
+  } else return other;
 }
 
 const ceoSalary = calculateSalary("ceo");
